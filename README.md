@@ -34,11 +34,11 @@
 
 ```toml
 AI_API_KEY = "你的真实密钥"
-AI_MODEL = "兼容Chat Completions的模型ID"
-AI_BASE_URL = "https://你的服务商API根地址/v1"
+AI_MODEL = "deepseek-flash"
+AI_BASE_URL = "https://api.deepseek.com"
 ```
 
-仅使用兼容 OpenAI Chat Completions 的服务端接口。切勿把真实密钥提交到 GitHub、放在二维码链接里或发到公开网页；`.streamlit/secrets.toml.example` 仅是空白示例。
+默认示例已配置为 DeepSeek 官方 Chat Completions API；如需切换其他兼容服务商，可修改模型 ID 和接口地址。切勿把真实密钥提交到 GitHub、放在二维码链接里或发到公开网页；`.streamlit/secrets.toml.example` 仅是空白示例。
 
 ## 本地启动
 
